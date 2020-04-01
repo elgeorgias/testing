@@ -41,7 +41,7 @@ public class Filmafinity {
 			File newFile = new File("resources/movies_rates.csv");
 			// input
 			//reader = new BufferedReader(new FileReader("resources/clean_list.txt"));
-			reader = new BufferedReader(new FileReader("resources/clean_list_webdriverexception.txt"));
+			reader = new BufferedReader(new FileReader("resources/clean_list.txt"));
 
 			String line = reader.readLine();
 			int startLine = 6;
