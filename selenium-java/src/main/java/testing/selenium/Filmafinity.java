@@ -24,7 +24,7 @@ public class Filmafinity {
 		// TODO Auto-generated method stub
 
 		// setting the driver executable
-		System.setProperty("webdriver.chrome.driver", "/Users/jruano/Desktop/temp/selenium_IDE/webdriver/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "resources/webdriver/macos/chromedriver");
 
 		// Initiating your chromedriver
 		WebDriver driver = new ChromeDriver();
@@ -44,7 +44,7 @@ public class Filmafinity {
 			reader = new BufferedReader(new FileReader("resources/clean_list.txt"));
 
 			String line = reader.readLine();
-			int startLine = 6;
+			int startLine = 0;
 			int count = 0;
 			while (line != null) {
 				if (count >= startLine) {
