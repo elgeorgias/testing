@@ -24,7 +24,10 @@ public class Filmafinity {
 		// TODO Auto-generated method stub
 
 		// setting the driver executable
-		System.setProperty("webdriver.chrome.driver", "resources/webdriver/macos/chromedriver");
+		// macos
+		//System.setProperty("webdriver.chrome.driver", "resources/webdriver/macos/chromedriver");
+		// windows
+		System.setProperty("webdriver.chrome.driver", "resources/webdriver/win/chromedriver.exe");
 
 		// Initiating your chromedriver
 		WebDriver driver = new ChromeDriver();
