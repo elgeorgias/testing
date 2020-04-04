@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>testing</groupId>
-	<artifactId>selenium</artifactId>
+	<artifactId>selenium-java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>selenium Maven Plugin</name>
+	<name>Selenium Maven Java</name>
 
 	<!-- FIXME change it to the project's website -->
 	<url>http://maven.apache.org</url>
