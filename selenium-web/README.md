@@ -1,1 +1,1 @@
-# Project Selenium for wen testing
+# Project Selenium for web testing
